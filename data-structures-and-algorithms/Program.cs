@@ -150,7 +150,7 @@ Console.Write(ArrayHelper.FindFirstRecurringNumber(array));
 
 #region DS-LinkedList
 /*
-var linkedList = new data_structures_and_algorithms.LinkedList.LinkedList<int>(5);
+var linkedList = new data_structures_and_algorithms.DS_LinkedList.LinkedList<int>(5);
 linkedList.Append(1);
 linkedList.Append(2);  
 linkedList.Insert(0, 3);
@@ -159,12 +159,35 @@ linkedList.Remove(2);
 Console.WriteLine(linkedList.ToString());
 
 
-var linkedList = new data_structures_and_algorithms.LinkedList.DoublyLinkedList.DoublyLinkedList<int>(5);
+var linkedList = new data_structures_and_algorithms.DS_LinkedList.DoublyLinkedList.DoublyLinkedList<int>(5);
 linkedList.Append(1);
 linkedList.Append(2);
 linkedList.Insert(0, 3);
 linkedList.Remove(2);
 
 Console.WriteLine(linkedList.ToString());
+*/
+#endregion
+
+#region DS-Stack
+/*
+var stack = new data_structures_and_algorithms.DS_Stack.StackUsingArray.Stack<String>(10);
+
+stack.Push("1");
+stack.Push("2");
+stack.Push("3");
+Console.WriteLine(stack);
+Console.WriteLine(stack.Pop());
+Console.WriteLine(stack);
+
+
+var stack = new data_structures_and_algorithms.DS_Stack.StackUsingLinkedList.Stack<String>();
+
+stack.Push("1");
+stack.Push("2");
+stack.Push("3");
+Console.WriteLine(stack);
+Console.WriteLine(stack.Pop());
+Console.WriteLine(stack);
 */
 #endregion

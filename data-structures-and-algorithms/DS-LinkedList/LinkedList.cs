@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace data_structures_and_algorithms.LinkedList;
+namespace data_structures_and_algorithms.DS_LinkedList;
 
 public class Node<T>
 {
