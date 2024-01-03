@@ -157,7 +157,8 @@ linkedList.Insert(0, 3);
 linkedList.Remove(2);
 
 Console.WriteLine(linkedList.ToString());
-*/
+
+
 var linkedList = new data_structures_and_algorithms.LinkedList.DoublyLinkedList.DoublyLinkedList<int>(5);
 linkedList.Append(1);
 linkedList.Append(2);
@@ -165,5 +166,5 @@ linkedList.Insert(0, 3);
 linkedList.Remove(2);
 
 Console.WriteLine(linkedList.ToString());
-
+*/
 #endregion
