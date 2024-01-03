@@ -128,7 +128,6 @@ myHashTable.Set("grapes", 1000);
 myHashTable.Set("apples", 54);
 myHashTable.Set("strawberries", 13);
 
-
 var keys = myHashTable.keys();
 var result = new StringBuilder("");
 
@@ -139,10 +138,32 @@ foreach (var key in keys)
 }
 
 Console.WriteLine(result.ToString());
-*/
+
 
 using data_structures_and_algorithms;
 
 int[] array = { 1, 5, 8, 15, 11, 18, 188, 7, 14, 4, 10 };
 Console.Write(ArrayHelper.FindFirstRecurringNumber(array));
+*/
+#endregion
+
+
+#region DS-LinkedList
+/*
+var linkedList = new data_structures_and_algorithms.LinkedList.LinkedList<int>(5);
+linkedList.Append(1);
+linkedList.Append(2);  
+linkedList.Insert(0, 3);
+linkedList.Remove(2);
+
+Console.WriteLine(linkedList.ToString());
+*/
+var linkedList = new data_structures_and_algorithms.LinkedList.DoublyLinkedList.DoublyLinkedList<int>(5);
+linkedList.Append(1);
+linkedList.Append(2);
+linkedList.Insert(0, 3);
+linkedList.Remove(2);
+
+Console.WriteLine(linkedList.ToString());
+
 #endregion
