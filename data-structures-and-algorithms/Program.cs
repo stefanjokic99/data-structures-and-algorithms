@@ -191,3 +191,28 @@ Console.WriteLine(stack.Pop());
 Console.WriteLine(stack);
 */
 #endregion
+
+#region DS-Queue
+/*
+var queue = new data_structures_and_algorithms.DS_Queue.QueueUsingLinkedList.Queue<int>();
+queue.Enqueue(1);
+queue.Enqueue(2);
+queue.Enqueue(3);
+
+Console.WriteLine(queue);
+
+queue.Dequeue();
+Console.WriteLine(queue);
+
+
+var queue = new data_structures_and_algorithms.DS_Queue.QueueUsingStack.Queue<int>();
+queue.Enqueue(1);
+queue.Enqueue(2);
+queue.Enqueue(3);
+
+Console.WriteLine(queue);
+
+queue.Dequeue();
+Console.WriteLine(queue);
+*/
+#endregion
